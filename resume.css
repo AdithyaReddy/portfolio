@@ -174,47 +174,16 @@ main {
   margin-bottom: 16px;
 }
 
-/* Company badge */
-.company-badge {
+/* Company logo */
+.company-logo {
   width: 44px;
   height: 44px;
   border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.75rem;
-  font-weight: 800;
+  object-fit: contain;
+  background-color: #ffffff;
+  padding: 4px;
   flex-shrink: 0;
-  letter-spacing: 0.02em;
   margin-top: 2px;
-}
-
-.blinkit-badge {
-  background-color: #f5df4d;
-  color: #1a1a1a;
-  font-size: 1.1rem;
-}
-
-.zomato-badge {
-  background-color: #e23744;
-  color: #ffffff;
-  font-size: 1.1rem;
-}
-
-.uc-badge {
-  background-color: #6c3fce;
-  color: #ffffff;
-}
-
-.ms-badge {
-  background-color: #00a4ef;
-  color: #ffffff;
-}
-
-.edu-badge {
-  background-color: #1a4a2e;
-  color: #4caf77;
-  font-size: 0.65rem;
 }
 
 /* Job info */
@@ -403,7 +372,7 @@ footer a {
     font-size: 2rem;
   }
 
-  .company-badge {
+  .company-logo {
     width: 36px;
     height: 36px;
   }
