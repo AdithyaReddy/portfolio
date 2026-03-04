@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume — Adithya Reddy</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="resume.css">
+</head>
+
+<body>
+
+  <!-- Header / Nav -->
+  <header id="header">
+    <div class="left-section">
+      <a class="logo" href="index.html">Adithya Reddy</a>
+    </div>
+    <nav>
+      <a class="nav-item" href="index.html">Home</a>
+      <a class="nav-item active" href="resume.html">Resume</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Profile -->
+    <section class="profile">
+      <h1>Adithya Reddy</h1>
+      <p class="tagline">Senior Engineering Manager · Consumer Apps @ Blinkit</p>
+      <p class="location"><i class="fa-solid fa-location-dot"></i> Gurgaon, Haryana, India</p>
+      <div class="profile-links">
+        <a href="https://www.linkedin.com/in/adithyareddygr/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+        </a>
+        <a href="mailto:adithya@blinkit.com">
+          <i class="fa-solid fa-envelope"></i> adithya@blinkit.com
+        </a>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Work Experience -->
+    <section class="section">
+      <h2 class="section-title">Experience</h2>
+
+      <!-- Blinkit -->
+      <article class="job">
+        <div class="job-header">
+          <div class="company-badge blinkit-badge">
+            <span>B</span>
+          </div>
+          <div class="job-info">
+            <h3 class="company">Blinkit</h3>
+            <h4 class="role">Senior Engineering Manager</h4>
+            <p class="meta">
+              <span class="dates">January 2022 – Present</span>
+              <span class="dot">·</span>
+              <span class="duration">4 years 3 months</span>
+            </p>
+          </div>
+        </div>
+        <div class="job-body">
+          <p>Leading Consumer Engineering at Blinkit, building the apps that power India's fastest commerce platform.</p>
+          <p class="hiring-note">
+            <i class="fa-solid fa-circle-info"></i>
+            Blinkit is hiring — reach out at <a href="mailto:adithya@blinkit.com">adithya@blinkit.com</a> if you'd like to be part of our growth story.
+          </p>
+        </div>
+      </article>
+
+      <!-- Zomato -->
+      <article class="job">
+        <div class="job-header">
+          <div class="company-badge zomato-badge">
+            <span>Z</span>
+          </div>
+          <div class="job-info">
+            <h3 class="company">Zomato</h3>
+            <h4 class="role">Engineering Manager, Mobile Platform Engineering</h4>
+            <p class="meta">
+              <span class="dates">April 2019 – January 2022</span>
+              <span class="dot">·</span>
+              <span class="duration">2 years 10 months</span>
+              <span class="dot">·</span>
+              <span class="location-tag">Gurugram</span>
+            </p>
+          </div>
+        </div>
+        <div class="job-body">
+          <ul class="achievements">
+            <li>Reduced app launch time from <strong>~2s → &lt;0.6s</strong> (including pre-main and post-main) despite 10+ dynamically loaded frameworks, improving startup performance for an app serving <strong>~80M monthly active users</strong> across 800+ cities.</li>
+            <li>Improved OOM-free sessions from <strong>88% → 95%</strong> while maintaining ~99.8% crash-free sessions, significantly improving reliability at scale.</li>
+            <li>Built the <strong>Restaurant Page</strong>, one of the highest-traffic and revenue-driving surfaces in the Zomato app, during the flagship <a href="https://www.zomato.com/blog/v14-app-update" target="_blank">V14 redesign</a>.</li>
+            <li>Contributed to the <strong>Zomato V15 redesign</strong>, including the revamped <a href="https://www.zomato.com/blog/new-ratings" target="_blank">ratings system</a> that influences restaurant discovery and ordering decisions.</li>
+            <li>Built an <strong>MQTT-based real-time pub-sub infrastructure</strong> powering live rider movement in the order tracking experience and other real-time product use cases.</li>
+            <li>Improved rider maneuvering accuracy within the order tracking experience, strengthening delivery visibility for customers.</li>
+            <li>Led the <strong>iOS Platform team</strong>, building foundational infrastructure used across the Zomato mobile ecosystem.</li>
+            <li>Architected <strong>runtime localization infrastructure</strong>, enabling regional language support and dynamic string updates without requiring app releases.</li>
+            <li>Re-architected core SDK architecture to improve modularity and scalability across multiple app modules.</li>
+            <li>Designed an <strong>incremental build system</strong> enabling near-zero compilation time, improving developer productivity across the mobile team.</li>
+            <li>Reduced Carthage dependency bootstrap time from <strong>~30 minutes → &lt;30 seconds</strong>, dramatically improving CI and local development workflows.</li>
+            <li>
+              Built internal mobile developer platforms:
+              <ul class="sub-list">
+                <li><strong>Airport</strong> — Zomato's internal app distribution platform (TestFlight equivalent)</li>
+                <li><strong>Metro</strong> — Zomato's internal application loader</li>
+              </ul>
+            </li>
+            <li>Helped refine and scale the engineering hiring process.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Urban Company -->
+      <article class="job">
+        <div class="job-header">
+          <div class="company-badge uc-badge">
+            <span>UC</span>
+          </div>
+          <div class="job-info">
+            <h3 class="company">Urban Company</h3>
+            <h4 class="role">Software Engineer (iOS)</h4>
+            <p class="meta">
+              <span class="dates">February 2016 – April 2019</span>
+              <span class="dot">·</span>
+              <span class="duration">3 years 3 months</span>
+              <span class="dot">·</span>
+              <span class="location-tag">Gurgaon, India</span>
+            </p>
+          </div>
+        </div>
+        <div class="job-body">
+          <ul class="achievements">
+            <li>Built the customer-facing iOS app.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Microsoft -->
+      <article class="job">
+        <div class="job-header">
+          <div class="company-badge ms-badge">
+            <span>MS</span>
+          </div>
+          <div class="job-info">
+            <h3 class="company">Microsoft</h3>
+            <h4 class="role">Microsoft Student Partner</h4>
+            <p class="meta">
+              <span class="dates">May 2014 – May 2015</span>
+              <span class="dot">·</span>
+              <span class="duration">1 year 1 month</span>
+            </p>
+          </div>
+        </div>
+        <div class="job-body">
+          <ul class="achievements">
+            <li>Involved in developing Windows 8.x Store apps.</li>
+          </ul>
+        </div>
+      </article>
+
+    </section>
+
+    <hr class="divider">
+
+    <!-- Education -->
+    <section class="section">
+      <h2 class="section-title">Education</h2>
+
+      <article class="job">
+        <div class="job-header">
+          <div class="company-badge edu-badge">
+            <span>VTU</span>
+          </div>
+          <div class="job-info">
+            <h3 class="company">Visvesvaraya Technological University</h3>
+            <h4 class="role">Bachelor of Technology (B.Tech), Information Technology</h4>
+            <p class="meta">
+              <span class="dates">Graduated with Distinction</span>
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Last updated March 2026 · <a href="https://www.linkedin.com/in/adithyareddygr/" target="_blank">LinkedIn</a></p>
+  </footer>
+
+</body>
+</html>
