@@ -24,7 +24,7 @@ body::before {
   position: fixed;
   inset: 0;
   background-color: black;
-  opacity: 0.65;
+  opacity: 0.7;
   z-index: 0;
 }
 
@@ -46,11 +46,11 @@ body::before {
 }
 
 nav .active {
-  color: #3FA2F6;
+  color: #05a2fc;
 }
 
 .nav-item:hover {
-  color: #3FA2F6;
+  color: #05a2fc;
 }
 
 .nav-item:active {
@@ -85,7 +85,7 @@ h1{
 h3 {
   font-size: 2.3rem;
   font-weight: 800;
-  color: #3FA2F6;
+  color: #05a2fc;
   padding-bottom: 40px;
 }
 
@@ -106,15 +106,15 @@ p {
   border:none;
   border-radius: 8px;
   margin-right: 50px;
-  background-color: #3FA2F6;
+  background-color: #05a2fc;
   margin-bottom: 180px;
   transition: background-color 0.12s, border 0.12s, color 0.21s, padding 0.12s;
 }
 
 .cta .cta-1:hover {
   background-color: transparent;
-  color: #3FA2F6;
-  border: 2px solid #3FA2F6;
+  color: #05a2fc;
+  border: 2px solid #05a2fc;
   padding: 13px 0;
 }
 
@@ -125,8 +125,8 @@ p {
 
 .cta .cta-2 {
   background-color: transparent;
-  color: #3FA2F6;
-  border: 2px solid #3FA2F6;
+  color: #05a2fc;
+  border: 2px solid #05a2fc;
   padding: 13px 0;
 }
 
@@ -143,8 +143,8 @@ p {
 
 .social-icon i {
 font-size: 1.2rem;
-color: #3FA2F6;
-border: 1px solid #3FA2F6;
+color: #05a2fc;
+border: 1px solid #05a2fc;
 border-radius: 50px;
 padding: 8px;
 height: 25px;
@@ -159,7 +159,7 @@ cursor: pointer;
 
 .social-icon i:hover {
   transform: scale(1.1);
-  text-shadow: 0 0 10px #3FA2F6;
+  text-shadow: 0 0 10px #05a2fc;
 }
 
 /* Animations */
@@ -187,7 +187,7 @@ cursor: pointer;
 
 @keyframes backgroundZoom {
   from{
-    background-size: 80%;
+    background-size: 90%;
   }
   to{
     background-size: 100%;
